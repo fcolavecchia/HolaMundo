@@ -9,6 +9,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyLibrary", "src\MyLibrary\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyProject", "src\MyProject\MyProject.fsproj", "{AEAC14B6-390E-4601-9055-ABED5B0FA427}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DEC8C5EB-ED23-4E3D-859D-7C202355BD40}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyTests", "tests\MyTests\MyTests.fsproj", "{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,14 @@ Global
 		{AEAC14B6-390E-4601-9055-ABED5B0FA427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEAC14B6-390E-4601-9055-ABED5B0FA427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEAC14B6-390E-4601-9055-ABED5B0FA427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DFB0DA9-7DF8-4198-AC91-CBED8FC9BCB8} = {FA0F182D-D5ED-49A4-8822-B0D785F06AE7}
 		{AEAC14B6-390E-4601-9055-ABED5B0FA427} = {FA0F182D-D5ED-49A4-8822-B0D785F06AE7}
+		{AA99EB27-3AEC-4BBB-91AC-8032073A4D1C} = {DEC8C5EB-ED23-4E3D-859D-7C202355BD40}
 	EndGlobalSection
 EndGlobal
